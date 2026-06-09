@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.infi.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PlayerListHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

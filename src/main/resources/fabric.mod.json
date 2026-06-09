@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "offline-tab-head",
+	"version": "${version}",
+	"name": "offline-tab-head",
+	"description": "A mod to restore player heads on offline servers",
+	"authors": [
+		"Infinitumcraft"
+	],
+	"contact": {
+		"homepage": "https://infinitumcraft.github.io",
+		"sources": "https://github.com/infinitumcraft/offline-player-head"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/offline-tab-head/icon.png",
+	"environment": "*",
+	"mixins": [
+		"offline-tab-head.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=26.1 <=26.1.2",
+		"java": ">=25"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
