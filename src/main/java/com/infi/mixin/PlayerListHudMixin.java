@@ -15,7 +15,7 @@ public class PlayerListHudMixin {
 			method = "extractRenderState",
 			at = @At(
 					value = "INVOKE",
-					target = "Lnet/minecraft/network/Connection;isEncrypted()Z"
+					target = "Lnet/minecraft/client/multiplayer/ClientPacketListener;onlineMode()Z"
 			)
 	)
 	private boolean onTabRender(boolean original) {
